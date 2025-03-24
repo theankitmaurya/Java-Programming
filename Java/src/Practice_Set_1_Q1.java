@@ -1,8 +1,9 @@
 import java.util.Scanner;
 
-public class Practice_Set_1 {
+public class Practice_Set_1_Q1 {
     public static void main(String[] args) {
-//        Write a program to sum three numbers in Java.
+        // Write a program to sum three numbers in Java.
+        
         Scanner sc = new Scanner(System.in);
 
         System.out.println("Enter the first number: ");
