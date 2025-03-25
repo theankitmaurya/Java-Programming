@@ -1,6 +1,8 @@
+
 import java.util.Scanner;
 
 public class Practice_Set_1_Q3 {
+
     public static void main(String[] args) {
         // Write a Java program which asks the user to enter his/her name and greets them with "Hello <name>, have a good day" text.
 

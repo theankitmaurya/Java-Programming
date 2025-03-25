@@ -1,4 +1,6 @@
+
 public class Practice_Set_2_Q4 {
+
     public static void main(String[] args) {
 //        Write the following expression in a java program: (v^2 - u^2) / 2as
 

@@ -1,4 +1,6 @@
+
 public class Practice_Set_2_Q5 {
+
     public static void main(String[] args) {
 //        Find the value of the following expression:
 //        int x = 7;
