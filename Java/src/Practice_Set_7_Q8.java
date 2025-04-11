@@ -1,0 +1,24 @@
+import java.util.Scanner;
+
+public class Practice_Set_7_Q8 {
+
+    static void Pattern4(int n) {
+        if (n > 0) {
+            Pattern4(n - 1);
+            for (int i = 0; i < n; i++) {
+                System.out.print("*");
+            }
+            System.out.println();
+        }
+    }
+
+    public static void main(String[] args) {
+        // Repeat Question 2 using Recursion
+
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter the number for printing the star: ");
+        int n = sc.nextInt();
+
+        Pattern4(n);
+    }
+}
