@@ -4,7 +4,7 @@ import java.util.Scanner;
 public class Practice_Set_4_Q4 {
 
     public static void main(String[] args) {
-//        Write a Java program to find out the day of the week given the number [1 for Monday, 2 for Tuesday, ... , and so on.]
+//        Write a Java program to find out the day of the week given the number [1 for Monday, 2 for Tuesday, ... , and so On.]
 
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter the number of the day: ");
