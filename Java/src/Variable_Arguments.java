@@ -1,6 +1,6 @@
 public class Variable_Arguments {
 
-    static int Sum(int... arr) {
+    static int Sum(int ...arr) {
         int result = 0;
         for (int a : arr) {
             result += a;
@@ -9,10 +9,12 @@ public class Variable_Arguments {
     }
 
     public static void main(String[] args) {
-//        Variable Arguments (varargs) -> A function with varargs can be created in JAVA using the following syntax:
-//        public static void name(int ...arr) {
-//              arr is available here as int [] arr
-//        }
+/*
+        Variable Arguments (varargs) -> A function with varargs can be created in JAVA using the following syntax:
+        public static void name(int ...arr) {
+              arr is available here as int[] arr
+        }
+*/
 
         System.out.println("The sum of nothing is:" + Sum());
         System.out.println("The sum of only one number is: " + Sum(1));

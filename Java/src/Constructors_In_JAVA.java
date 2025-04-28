@@ -25,7 +25,7 @@ public class Constructors_In_JAVA {
 
         MyMainEmployee me1 = new MyMainEmployee(12, "Ankit Maurya");
         MyMainEmployee me2 = new MyMainEmployee();
-//
+
         System.out.println(me1.getId());
         System.out.println(me1.getName());
 
@@ -34,7 +34,7 @@ public class Constructors_In_JAVA {
 
 //        Constructor Overloading -> Constructors can be overloaded like any other methods in java.
 //        Note -> (1) -> Constructors can take parameters without being overloaded.
-//                (2) -> There can be more thn two overloaded constructors.
+//                (2) -> There can be more than two overloaded constructors.
 
     }
 }

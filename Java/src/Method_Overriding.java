@@ -33,11 +33,8 @@ public class Method_Overriding {
         b.meth1();
 
         /*
-         * Method Overriding -> If the child class implements the same method present in
-         * the parent class again, it is known as method overriding.
-         * When an object of subclass is created and the override method is called, the
-         * method which has been implemented in the subclass is called & its code is
-         * executed.
+         * Method Overriding -> If the child class implements the same method present in the parent class again, it is known as method overriding.
+         * When an object of a subclass is created and the override method is called, the method which has been implemented in the subclass is called and its code is executed.
          */
 
     }

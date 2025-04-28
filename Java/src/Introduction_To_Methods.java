@@ -31,7 +31,7 @@ public class Introduction_To_Methods {
         int c2 = Logic(a2, b2);
         System.out.println("Value: " + c2);
 
-//        Without using static keyword -> We can create a new class which is same as our file name, and then we don't have to use static keyword.
+//        Without using static keyword -> We can create a new class which is the same as our file name, and then we don't have to use static keyword.
         Introduction_To_Methods Addition = new Introduction_To_Methods();
         int a3 = 3;
         int b3 = 8;
@@ -41,7 +41,9 @@ public class Introduction_To_Methods {
     }
 }
 
-// Syntax of a Method -> A method is a function written inside a class. Since JAVA is an Object-Oriented Programming Language, we need to write the method inside some class.
-// datatype name() {
-//      Method body
-// }
+/*
+ Syntax of a Method -> A method is a function written inside a class. Since JAVA is an Object-Oriented Programming Language, we need to write the method inside some class.
+ datatype name() {
+      Method body
+ }
+*/

@@ -31,11 +31,8 @@ public class This_And_Super_Keyword {
         System.out.println(c2.getA());
 
         /*
-         * This Keyword -> This is a way for us to reference On an object of the class
-         * which is being created/referenced
-         * 
-         * Super Keyword -> A reference variable used to refer immediate parent class
-         * object
+         * This Keyword -> This is a way for us to reference on an object of the class which is being created/referenced
+         * Super Keyword -> A reference variable used to refer an immediate parent class object
          * (1) Can be used to refer immediate parent class instance variable
          * (2) Can be used to invoke parent class methods
          * (3) Can be used to invoke parent class constructors

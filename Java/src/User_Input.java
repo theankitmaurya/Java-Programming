@@ -12,7 +12,7 @@ public class User_Input {
         int sum = a + b;
         System.out.println("The sum of the numbers is: " + sum);
 
-        // To check whether an entered number is an integer / float then we use below statement
+        // To check whether an entered number is an integer / float, then we use the below statement
         // hasNextInt(); / hasNextByte();
         System.out.println(sc.hasNextInt());
     }

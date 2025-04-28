@@ -2,8 +2,7 @@
 public class Literals {
 
     public static void main(String[] args) {
-        // Literals -> A constant value which can be assigned to the variable is called
-        // a literal.
+        // Literals -> A constant value which can be assigned to the variable is called a literal.
 
         byte age = 34;
         char ch = 'A';

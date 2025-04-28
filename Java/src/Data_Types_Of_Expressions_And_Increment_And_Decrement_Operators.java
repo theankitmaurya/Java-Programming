@@ -2,7 +2,7 @@
 public class Data_Types_Of_Expressions_And_Increment_And_Decrement_Operators {
 
     public static void main(String[] args) {
-        //   Following table summarizes the resulting data types after arithmetic operation On them
+        //   The following table summarizes the resulting data types after arithmetic operation On them
 
         byte a = 45;
         short b = 12;
@@ -52,6 +52,6 @@ public class Data_Types_Of_Expressions_And_Increment_And_Decrement_Operators {
         System.out.println(h);
 
 //        a++ -> First use the value and then increment
-//        ++a -> First increment the value then use it
+//        ++a -> First increment the value, then use it
     }
 }

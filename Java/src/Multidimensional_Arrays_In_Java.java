@@ -2,7 +2,7 @@
 public class Multidimensional_Arrays_In_Java {
 
     public static void main(String[] args) {
-//        Multidimensional arrays are arrays of arrays.Each element of M-D array is an array itself.
+//        Multidimensional arrays are arrays of arrays.Each element of a Multi-Dimensional array is an array itself.
 
         int[] marks; // 1D array
         int[][] flats = new int[2][3]; // 2D array
