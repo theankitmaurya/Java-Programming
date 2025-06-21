@@ -4,7 +4,7 @@ class MyMainEmployee{
 
     public MyMainEmployee() {
         id = 45;
-        name = "Ankit Maurya";
+        name = "Ankit1 Maurya";
     }
 
     public MyMainEmployee(int myId, String myName) {
@@ -23,7 +23,7 @@ public class Constructors_In_JAVA {
     public static void main(String[] args) {
 //        Constructors In Java -> A member function used to initiate an object while creating it.
 
-        MyMainEmployee me1 = new MyMainEmployee(12, "Ankit Maurya");
+        MyMainEmployee me1 = new MyMainEmployee(12, "Ankit1 Maurya");
         MyMainEmployee me2 = new MyMainEmployee();
 
         System.out.println(me1.getId());

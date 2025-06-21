@@ -7,7 +7,7 @@ public class Practice_Set_3_Q3 {
 //        Replace <|name|> with a string (some name)
 
         String str1 = "Dear <|name|>, Thanks a lot!";
-        String str2 = "Ankit";
+        String str2 = "Ankit1";
 
         System.out.println(str1.replace("<|name|>", str2));
     }

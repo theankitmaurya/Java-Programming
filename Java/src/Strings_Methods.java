@@ -4,7 +4,7 @@ public class Strings_Methods {
     public static void main(String[] args) {
 
 //        Strings are immutable
-        String str = "Ankit";
+        String str = "Ankit1";
 
 //        .length() -> returns length of the string
         System.out.println(str.length());
@@ -53,7 +53,7 @@ public class Strings_Methods {
         System.out.println(str.lastIndexOf("it", 3));
 
 //        .equals() -> returns true if the given string is equal to the argument
-        System.out.println(str.equals("Ankit"));
+        System.out.println(str.equals("Ankit1"));
 
 //        .equalsIgnoreCase() -> returns true if two strings are equal ignoring the case of characters
         System.out.println(str.equalsIgnoreCase("ankit"));

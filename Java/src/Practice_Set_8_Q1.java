@@ -27,12 +27,12 @@ public class Practice_Set_8_Q1 {
         Employee2 ankit = new Employee2();
 
         ankit.salary = 50000;
-        ankit.name = "Ankit Maurya";
+        ankit.name = "Ankit1 Maurya";
 
         System.out.println(ankit.getSalary());
         System.out.println(ankit.getName());
 
-        ankit.setName("Ankit Maurya");
+        ankit.setName("Ankit1 Maurya");
         System.out.println(ankit.getName());
 
     }

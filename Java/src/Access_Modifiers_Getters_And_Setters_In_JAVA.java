@@ -24,7 +24,7 @@ public class Access_Modifiers_Getters_And_Setters_In_JAVA {
 
         MyEmployee me = new MyEmployee();
 
-        me.setName("Ankit Maurya");
+        me.setName("Ankit1 Maurya");
         System.out.println(me.getName());
 
         me.setId(1);

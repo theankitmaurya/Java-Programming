@@ -12,7 +12,7 @@ public class Literals {
         short s1 = 1;
 
         // String is a method to print a string
-        String str = "Hello Ankit";
+        String str = "Hello Ankit1";
 
         System.out.println("Age: " + age + ", Character: " + ch + ", Float: " + f1 + ", Double: " + d1 + ", Long: " + l1
                 + ", Short: " + s1);

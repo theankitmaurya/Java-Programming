@@ -49,8 +49,8 @@ public class Methods_Overloading {
         // Methods Overloading -> Two or more methods can have same name but different
         // parameters. Such methods are called overloaded methods.
         foo();
-        foo("Ankit");
-        foo("Ankit", "Sam");
+        foo("Ankit1");
+        foo("Ankit1", "Sam");
 
         // Method Overloading cannot be performed by changing the return type of
         // methods.

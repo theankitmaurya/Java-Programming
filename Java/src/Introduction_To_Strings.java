@@ -4,8 +4,8 @@ import java.util.Scanner;
 public class Introduction_To_Strings {
 
     public static void main(String[] args) {
-        String name1 = new String("Ankit");
-        String name2 = "Ankit";
+        String name1 = new String("Ankit1");
+        String name2 = "Ankit1";
         System.out.println(name1);
         System.out.println(name2);
 

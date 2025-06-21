@@ -39,7 +39,7 @@ class ScreenTouch1 extends CellPhone1 implements Camera1, Wifi1 {
     @Override
     public String[] getNetworks() {
         System.out.println("Getting List of networkList");
-        String[] networkList = { "Ankit", "3G", "4G" };
+        String[] networkList = { "Ankit1", "3G", "4G" };
         return networkList;
     }
 
@@ -54,6 +54,6 @@ public class Polymorphism_Using_Interfaces {
         Camera1 cam2 = new ScreenTouch1();
         cam2.recordVideo();
         Wifi1 w2 = new ScreenTouch1();
-        w2.connectToNetwork("Ankit");
+        w2.connectToNetwork("Ankit1");
     }
 }

@@ -39,7 +39,7 @@ class ScreenTouch extends CellPhone implements Camera, Wifi {
     @Override
     public String[] getNetworks() {
         System.out.println("Getting List of networkList");
-        String[] networkList = { "Ankit", "3G", "4G" };
+        String[] networkList = { "Ankit1", "3G", "4G" };
         return networkList;
     }
 

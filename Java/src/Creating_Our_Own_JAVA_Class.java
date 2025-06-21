@@ -14,7 +14,7 @@ public class Creating_Our_Own_JAVA_Class {
         Employee1 john = new Employee1();
 
         ankit.id = "ASD12V5BGE1";
-        ankit.name = "Ankit";
+        ankit.name = "Ankit1";
         ankit.salary = 50000;
 
         john.id = "ASD12V5BGE2";
