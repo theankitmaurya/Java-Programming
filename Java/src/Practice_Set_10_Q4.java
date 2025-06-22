@@ -41,7 +41,7 @@ public class Practice_Set_10_Q4 {
         c.setBreadth(10);
         c.setHeight(15);
 
-        System.out.println("Area of Rectangle: " + c.getLength() * c.getBreadth());
+        System.out.println("Area of Rectangle4: " + c.getLength() * c.getBreadth());
         System.out.println("Volume of Cuboid: " + c.getLength() * c.getBreadth() * c.getHeight());
     }
 }

@@ -18,7 +18,7 @@ class Rectangle1 {
 
     @Override
     public String toString() {
-        return "Rectangle [Length: " + length + ", Breadth: " + breadth + "]";
+        return "Rectangle4 [Length: " + length + ", Breadth: " + breadth + "]";
     }
 }
 

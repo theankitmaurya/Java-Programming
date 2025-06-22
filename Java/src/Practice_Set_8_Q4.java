@@ -13,7 +13,7 @@ class Rectangle {
 
 public class Practice_Set_8_Q4 {
     public static void main(String[] args) {
-        // Create a class Rectangle and repeat Question 3
+        // Create a class Rectangle4 and repeat Question 3
 
         Rectangle r = new Rectangle();
 
