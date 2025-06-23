@@ -1,3 +1,4 @@
+import com.codewithankit.Shape.Cylinder2;
 
 class Cylinder {
 
@@ -24,9 +25,9 @@ class Cylinder {
 public class Practice_Set_9_Q1 {
 
     public static void main(String[] args) {
-//        Create a class Cylinder and use getters and setters to set its radius and height.
+//        Create a class Cylinder2 and use getters and setters to set its radius and height.
 
-        Cylinder cy = new Cylinder();
+        Cylinder2 cy = new Cylinder2();
 
         cy.setRadius(5);
         System.out.println(cy.getRadius());

@@ -1,3 +1,4 @@
+import com.codewithankit.Shape.Sphere1;
 
 class Sphere {
 
@@ -25,7 +26,7 @@ public class Practice_Set_9_Q5 {
     public static void main(String[] args) {
 //        Repeat Question 1 for a sphere
 
-        Sphere sphere = new Sphere();
+        Sphere1 sphere = new Sphere1();
         sphere.setRadius(2);
         System.out.println("Surface Area: " + sphere.surfaceArea());
         System.out.println("Volume: " + sphere.volume());

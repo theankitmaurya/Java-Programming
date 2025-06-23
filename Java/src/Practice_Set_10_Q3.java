@@ -30,7 +30,7 @@ public class Practice_Set_10_Q3 {
         Circle1 c = new Circle1(5);
         Cylinder1 cy = new Cylinder1(5, 10);
 
-        System.out.println("Area of Circle: " + c.Area());
-        System.out.println("Volume of Cylinder: " + cy.Volume());
+        System.out.println("Area of Circle2: " + c.Area());
+        System.out.println("Volume of Cylinder2: " + cy.Volume());
     }
 }

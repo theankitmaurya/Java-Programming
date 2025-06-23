@@ -1,37 +1,10 @@
 package com.codewithankit.Shape;
 
-public class Rectangle4 extends Shape {
-    protected double length;
-    protected double width;
-
-    public Rectangle4(double length, double width) {
-        this.length = length;
-        this.width = width;
+public class Rectangle4 extends com.codewithankit.Shape.Shape {
+    Rectangle4(int dim1, int dim2) {
+        super(dim1, dim2);
     }
-
-    public double surfaceArea() {
-        return length * width;
-    }
-
-    public double volume() {
-        return 0;
-    }
-
-    public double getLength() {
-        return length;
-    }
-
-    public void setLength(double length) {
-        this.length = length;
-    }
-
-    public double getWidth() {
-        return width;
-    }
-
-    public void setWidth(double width) {
-        this.width = width;
-    }
-
-
+        public int area() {
+            return this.dim1 * this.dim2;
+        }
 }
