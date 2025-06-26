@@ -34,25 +34,24 @@ abstract class grandChild extends Child {
 
 public class Abstract_Class {
     public static void main(String[] args) {
-        /*
-         * Abstract Method -> A method that is declared without an implementation
-         * abstract void moveTo(doubleX, doubleY)
-         * 
-         * Abstract Class -> If a class includes abstract methods, then the class itself
-         * must be declared abstract, as in:
-         * 
-         */
-        // Parent p = new Parent(); // throws error
+
+/*
+        Abstract Method -> A method that is declared without an implementation abstract void moveTo(doubleX, doubleY)
+        Abstract Class -> If a class includes abstract methods, then the class itself must be declared abstract, as in:
+        Parent p = new Parent(); // throws error -> abstract class can't be instantiated
+*/
+
+
         Child c = new Child();
-        System.out.println(c);
+        c.Greet();
 
-        // grandChild gc = new grandChild(); // throws error
+        // grandChild gc = new grandChild(); // throws error -> abstract class can't be instantiated
 
         /*
-         * When an abstract class is subclassed, the subclass usually provides
-         * implementations for all the methods in the parent class. If it doesn't, it
-         * must be declared abstract
-         */
+         When an abstract class is subclassed, the subclass usually provides implementations for all the methods in the parent class. If it doesn't, it must be declared abstract
+        */
+
+//        NOTE: Constructors will be automatically called on creating an object of the class.
 
     }
 }

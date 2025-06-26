@@ -33,6 +33,7 @@ class MyLibrary {
 
     public void returnBook (Book b) {
         System.out.println("The book has been returned to the library");
+        Book book = null;
         this.books.add(book);
     }
 }

@@ -58,5 +58,13 @@ public class Abstract_Class_VS_Interfaces {
         AvonCycle2 cycle2 = new AvonCycle2();
         cycle2.blowHorn1();
         cycle2.blowHorn2();
+
+/*
+        Abstract Class -> We have to only override those methods which have abstract keyword with them.
+        It is necessary to override the abstract method in child class, but it is not necessary to implement rest other methods which haven't abstract keyword with them.
+
+        Interface Class-> We have to override all the methods in the child class otherwise the child class will show that Class must either be declared abstract or implement abstract method.
+        So we have to implement all the methods declared of the interface class in the child class.
+*/
     }
 }
