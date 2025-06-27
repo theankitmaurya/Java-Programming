@@ -27,7 +27,7 @@ public class Annotations_In_Java {
     @SuppressWarnings("deprecation")
     public static void main(String[] args) {
 /*
-        Annotations In Java - Used to provide extra information about aa program. Annotations provide metadata to class/methods.
+        Annotations In Java - Used to provide extra information about a program. Annotations provide metadata to class/methods.
         Following are some common annotations built into Java:
         (1) @Override -> Used to mark Overridden elements in the child class
         (2) @SuppressWarnings -> Used to suppress the generated warnings by the compiler
@@ -43,5 +43,10 @@ public class Annotations_In_Java {
 
         SumThis sumThis = new SumThis();
         sumThis.sum(1, 5);
+
+/*
+        If we use @FunctionalInterface annotation, then we can only initiate one method.
+        If we try to initiate more than one method, then it will show an error that you have used @FunctionalInterface and trying to initiate more than one method.
+*/
     }
 }

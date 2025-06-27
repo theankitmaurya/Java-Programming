@@ -1,5 +1,4 @@
 import java.util.Calendar;
-import java.util.Locale;
 import java.util.TimeZone;
 
 public class Calendar_Class_In_Java {

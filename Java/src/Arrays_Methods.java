@@ -3,7 +3,7 @@ public class Arrays_Methods {
 
     public static void main(String[] args) {
 
-        int marks[] = new int[5];
+        int[] marks = new int[5];
 
         marks[0] = 10;
         marks[1] = 20;

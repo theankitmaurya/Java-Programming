@@ -23,14 +23,16 @@ public class Associativity_Of_Operators {
 
         int d = 6 / 5 + 4 - 3 * 2;
         System.out.println(d);
-        // d = 6 / 5 + 4 - 3 * 2
-        // = 1 + 4 - 6
-        // = 5 - 6
-        // = -1
+         // d = 6 / 5 + 4 - 3 * 2
+         // = 1 + 4 - 6
+         // = 5 - 6
+         // = -1
 
-        // Firstly, we see the precedence of the operators. If an operator have same
-        // precedence then we will check for its associativity.
-        // Link:
-        // https://community.codenewbie.org/images/k8FTgzQh7KSvfQIsrGfINIrWbLOiBy-U7QRT9C7mMuQ/w:880/mb:500000/ar:1/aHR0cHM6Ly9kZXYt/dG8tdXBsb2Fkcy5z/My5hbWF6b25hd3Mu/Y29tL3VwbG9hZHMv/YXJ0aWNsZXMvYXAx/cTgwM2htdzhyNW9u/bThwNG8uZ2lm
+        /*
+         Firstly, we see the precedence of the operators. If an operator has the same precedence, then we will check for its associativity.
+         Link: https://community.codenewbie.org/images/k8FTgzQh7KSvfQIsrGfINIrWbLOiBy-U7QRT9C7mMuQ/w:880/mb:500000/ar:1/aHR0cHM6Ly9kZXYt/dG8tdXBsb2Fkcy5z/My5hbWF6b25hd3Mu/Y29tL3VwbG9hZHMv/YXJ0aWNsZXMvYXAx/cTgwM2htdzhyNW9u/bThwNG8uZ2lm
+        */
+
+
     }
 }

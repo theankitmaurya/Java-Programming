@@ -18,6 +18,7 @@ public class Array_List_In_Java {
         l2.add(12);
         l2.add(13);
 
+        System.out.println(l1);
 
         l1.addAll(3, l2);
         System.out.println(l1.contains(5));

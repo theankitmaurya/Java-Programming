@@ -29,5 +29,7 @@ public class Access_Modifiers_Getters_And_Setters_In_JAVA {
 
         me.setId(1);
         System.out.println(me.getId());
+
+//        NOTE - If we have declared any variable private, then to access it, we have to use getters and setters, and then we will access the private methods or variables initiated
     }
 }

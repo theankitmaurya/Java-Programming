@@ -11,5 +11,7 @@ public class Array_Deque_In_Java {
         a1.addFirst(0);
         System.out.println(a1.getFirst());
         System.out.println(a1.getLast());
+
+//        ArrayDeque - ArrayDeque in Java is a resizable array-based double-ended queue (deque).
     }
 }
