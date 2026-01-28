@@ -1,4 +1,3 @@
-
 public class Data_Types_In_Java {
 
     public static void main(String[] args) {

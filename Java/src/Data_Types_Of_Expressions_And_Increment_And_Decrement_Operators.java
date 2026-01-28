@@ -1,4 +1,3 @@
-
 public class Data_Types_Of_Expressions_And_Increment_And_Decrement_Operators {
 
     public static void main(String[] args) {
@@ -11,31 +10,31 @@ public class Data_Types_Of_Expressions_And_Increment_And_Decrement_Operators {
         float e = 27.4F;
         long f = 123456789L;
 
-        // Result = Byte + Short = Int
+        // Result - Byte + Short = Int
         System.out.println("Result of Byte + Short: " + (a + b));
 
-        // Result = Short + Int = Int
+        // Result - Short + Int = Int
         System.out.println("Result of Short + Int: " + (b + c));
 
-        // Result = Long + Float = Float
+        // Result - Long + Float = Float
         System.out.println("Result of Long + Float: " + (f + e));
 
-        // Result = Int + Float = Float
+        // Result - Int + Float = Float
         System.out.println("Result of Int + Float: " + (c + e));
 
-        // Result = Int + Int = Int
+        // Result - Int + Int = Int
         System.out.println("Result of Int + Int: " + (c + c));
 
-        // Result = Int + Short = Int
+        // Result - Int + Short = Int
         System.out.println("Result of Int + Short: " + (c + b));
 
-        // Result = Long + Double = Double
+        // Result - Long + Double = Double
         System.out.println("Result of Long + Double: " + (f + d));
 
-        // Result = Float + Double = Double
+        // Result - Float + Double = Double
         System.out.println("Result of Float + Double: " + (e + d));
 
-        // Result = Byte + Float = Float
+        // Result - Byte + Float = Float
         System.out.println("Result of Byte + Float: " + (a + e));
         System.out.println();
         System.out.println("Increment And Decrement Operators ->");

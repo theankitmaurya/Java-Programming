@@ -1,7 +1,7 @@
 public class Creating_Packages_In_Java {
     public static void main(String[] args) {
 /*
-        Using a Java Package
+        Using a Java Package -
         import java.util.*;  -> import everything from java.util
         import java.util.Scanner;  -> import Scanner from java.Scanner
         java.util.Scanner sc = new java.util.Scanner();  -> use without importing
@@ -9,7 +9,7 @@ public class Creating_Packages_In_Java {
 
 /*
         Creating a package -
-        javac Filename.java -> creates Harry class
+        javac Filename.java -> creates Filename class
         javac -d . Filename.java -> creates a package folder
 */
     }

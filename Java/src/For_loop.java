@@ -4,7 +4,7 @@ public class For_loop {
     public static void main(String[] args) {
 
 /*
-        A for loop is usually used to execute a piece of code for specific number of times.
+        A for loop is usually used to execute a piece of code for a specific number of times.
         for (int j = 0; j < 10; j++) {
             System.out.println(j);
         }

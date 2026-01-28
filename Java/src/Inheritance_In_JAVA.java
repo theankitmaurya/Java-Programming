@@ -30,10 +30,12 @@ class Derived extends Base {
 
 public class Inheritance_In_JAVA {
     public static void main(String[] args) {
-        /*
+
+/*
          Inheritance In JAVA-> Inheritance is used to borrow properties and methods from an existing class.
          Declaring Inheritance in JAVA -> Inheritance in JAVA is declared using extends keyword
-        */
+*/
+
 
         Base b = new Base();
         b.setX(4);
@@ -47,9 +49,10 @@ public class Inheritance_In_JAVA {
         d1.setX(4);
         System.out.println("This is getting called from Derived Class: " + d1.getX());
 
-        /*
-         * When a class inherits from a superclass, it inherits parts of superclass methods and fields.
-         * JAVA doesn't support multiple inheritance, i.e., two classes can be superclass for a subclass.
-         */
+
+/*
+        When a class inherits from a superclass, it inherits parts of superclass methods and fields.
+        JAVA doesn't support multiple inheritance, i.e., two classes can be superclass for a subclass.
+*/
     }
 }

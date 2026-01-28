@@ -12,7 +12,7 @@ public class Date_Class_in_Java {
         Java Date class few methods which can be used.
         For Ex: getDate(), getDay() etc.
 
-        All these methods are deprecated
+        All these methods are deprecated now
 */
 
         Date d = new Date();

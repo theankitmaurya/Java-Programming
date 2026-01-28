@@ -11,7 +11,7 @@ public class Java_Collections_Framework {
         (3) Stack -> A LIFO data structure
         (4) HashMap -> For storing key value-pairs
 
-        Collection class is available in java.util.package. Collection class also provides static methods for sorting, searching etc.
+        Collection class is available in java.util.package. Collection class also provides static methods for sorting, searching, etc.
 */
     }
 }

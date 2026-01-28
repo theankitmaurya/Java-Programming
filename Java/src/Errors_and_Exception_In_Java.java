@@ -8,7 +8,7 @@ public class Errors_and_Exception_In_Java {
 */
 
 /*
-        Syntax Errors - When compiler finds something wrong with our program it throws a syntax error
+        Syntax Errors - When compiler finds something wrong with our program, it throws a syntax error
         int a = 9 -> No semicolon, syntax error!
         a = a + 3;
 

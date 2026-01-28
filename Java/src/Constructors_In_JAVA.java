@@ -4,7 +4,7 @@ class MyMainEmployee{
 
     public MyMainEmployee() {
         id = 45;
-        name = "Ankit1 Maurya";
+        name = "Ankit Kushwaha";
     }
 
     public MyMainEmployee(int myId, String myName) {
@@ -12,8 +12,8 @@ class MyMainEmployee{
         name = myName;
     }
 
-    public String getName() { return name; }
     public void setName(String n) { this.name = n; }
+    public String getName() { return name; }
     public void setId(int id) { this.id = id; }
     public int getId() { return id; }
 
@@ -21,9 +21,9 @@ class MyMainEmployee{
 
 public class Constructors_In_JAVA {
     public static void main(String[] args) {
-//        Constructors In Java -> A member function used to initiate an object while creating it.
+        /* Constructors In Java -> A member function used to initiate an object while creating it. */
 
-        MyMainEmployee me1 = new MyMainEmployee(12, "Ankit1 Maurya");
+        MyMainEmployee me1 = new MyMainEmployee(12, "Ankit Maurya");
         MyMainEmployee me2 = new MyMainEmployee();
 
         System.out.println(me1.getId());
@@ -32,9 +32,11 @@ public class Constructors_In_JAVA {
         System.out.println(me2.getId());
         System.out.println(me2.getName());
 
-//        Constructor Overloading -> Constructors can be overloaded like any other methods in java.
-//        Note -> (1) -> Constructors can take parameters without being overloaded.
-//                (2) -> There can be more than two overloaded constructors.
+/*
+        Constructor Overloading -> Constructors can be overloaded like any other methods in java.
+        Note -> (1) -> Constructors can take parameters without being overloaded.
+                (2) -> There can be more than two overloaded constructors.
+*/
 
     }
 }

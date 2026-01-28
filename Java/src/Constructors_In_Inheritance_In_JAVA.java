@@ -42,20 +42,14 @@ public class Constructors_In_Inheritance_In_JAVA {
         Derived1 d1 = new Derived1();
         Derived1 d2 = new Derived1(12, 14);
         superDerived sd1 = new superDerived(34, 45, 56);
-        /*
-         * Constructors In Inheritance -> When a derived class is extended from the Base
-         * class, the constructor of the Base class is executed first followed by the
-         * constructor of the Derived class.
-         * Constructors execute in top to bottom order
-         */
 
-        /*
-         * Constructors during constructors overloading -> When there are multiple
-         * constructors in the parent class, the constructors without any parameter are
-         * called from the child class.
-         * If we want to call the constructor with parameters from the parent class, we
-         * will use super keyword.
-         * super (a, b);
-         */
+/*
+        Constructors In Inheritance -> When a derived class is extended from the Base class, the constructor of the Base class is executed first followed by the constructor of the Derived class. Constructors execute in top to bottom order
+*/
+
+/*
+        Constructors during constructors overloading -> When there are multiple constructors in the parent class, the constructors without any parameter are called from the child class. If we want to call the constructor with parameters from the parent class, we will use super keyword.
+        super (a, b);
+*/
     }
 }

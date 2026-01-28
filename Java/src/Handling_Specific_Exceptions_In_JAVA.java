@@ -1,4 +1,3 @@
-import java.io.IOException;
 import java.util.Scanner;
 
 public class Handling_Specific_Exceptions_In_JAVA {
@@ -6,6 +5,7 @@ public class Handling_Specific_Exceptions_In_JAVA {
         int[] marks = new int[3];
         marks[0] = 7;
         marks[1] = 56;
+
         marks[2] = 6;
 
         Scanner sc = new Scanner(System.in);

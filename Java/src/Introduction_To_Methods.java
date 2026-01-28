@@ -1,4 +1,3 @@
-
 public class Introduction_To_Methods {
 
     static int Logic(int x, int y) {
@@ -11,8 +10,6 @@ public class Introduction_To_Methods {
         return z;
     }
 
-    ;
-
     int Sum(int x, int y) {
         int z;
         z = x + y;
@@ -20,7 +17,7 @@ public class Introduction_To_Methods {
     }
 
     public static void main(String[] args) {
-//            By using static keyword -> We have to use static if we have static in our Main file
+//        By using static keyword ->We have to use static if we have static in our Main file
         int a1 = 2;
         int b1 = 5;
         int c1 = Logic(a1, b1);
@@ -38,12 +35,16 @@ public class Introduction_To_Methods {
 
         int c3 = Addition.Sum(a3, b3);
         System.out.println("Value: " + c3);
+
+/*
+        Syntax of a Method ->A method is a function written inside a class. Since JAVA is an Object-Oriented
+        Programming Language, we need to write the method inside some class.
+        Datatype name () {
+            Method body
+        }
+*/
     }
 }
 
-/*
- Syntax of a Method -> A method is a function written inside a class. Since JAVA is an Object-Oriented Programming Language, we need to write the method inside some class.
- datatype name() {
-      Method body
- }
-*/
+
+

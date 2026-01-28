@@ -12,7 +12,10 @@ public class Constructors_From_Thread_In_JAVA {
     public static void main(String[] args) {
         MyThr obj = new MyThr("Ankit");
         obj.start();
+
         System.out.println(obj.getName());
         System.out.println(obj.threadId());
+
+//        Threads in Java let you run multiple bits of code “at the same time” (concurrently or in parallel)
     }
 }

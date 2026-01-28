@@ -12,6 +12,5 @@ public class Calendar_Class_In_Java {
         System.out.println(cal2.getCalendarType());
         System.out.println(cal2.getTimeZone());
         System.out.println(cal2.getTimeZone().getID());
-
     }
 }

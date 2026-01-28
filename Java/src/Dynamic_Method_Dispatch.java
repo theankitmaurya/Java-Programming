@@ -32,7 +32,6 @@ public class Dynamic_Method_Dispatch {
         // SmartPhone obj3 = new Phone(); // Not Allowed
 
         obj3.On();
-
         obj3.Greet();
     }
 }

@@ -7,10 +7,10 @@ public class Date_And_Time_In_Java {
 */
 
 /*
-        How Java stores a Date - Date in Java is stored in the form of a long number. This long number holds the number of milliseconds passed since 1 Jan 1970
-        Java assumes that 1900 is the start year which means it calculates years passed since 1900 whenever we ask it for years passed.
+        How Java stores a Date - Date in Java is stored in the form of a long number. This long number holds the number of milliseconds passed since 1 Jan 1970.
+        Java assumes that 1900 is the start year that means it calculates years passed since 1900 whenever we ask it for years passed.
 
-        System.currentTimeMillis(); returns no of milli-seconds passed. Once the number of milliseconds is calculated, we can calculate seconds, minutes, hours and years passed.
+        System.currentTimeMillis(); -> returns no of milliseconds passed. Once the number of milliseconds is calculated, we can calculate seconds, minutes, hours and years passed.
 */
 
         System.out.println("No. of milliseconds passed since 1970: " + System.currentTimeMillis());

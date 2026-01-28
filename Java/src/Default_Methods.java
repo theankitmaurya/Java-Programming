@@ -10,7 +10,7 @@ interface Wifi {
     void connectToNetwork(String network);
 }
 
-class CellPhone {
+class CellPhone2 {
 
     void callNumber(int phoneNumber) {
         System.out.println("Calling number " + phoneNumber);
@@ -25,7 +25,7 @@ class CellPhone {
     }
 }
 
-class ScreenTouch extends CellPhone implements Camera, Wifi {
+class ScreenTouch extends CellPhone2 implements Camera, Wifi {
     @Override
     public void takeSnap() {
         super.takeSnap();

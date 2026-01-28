@@ -14,10 +14,10 @@ public class Gregorian_Calendar_Class_And_TimeZone_In_Java {
 
         (2) getTime() method returns a Date object
 
-        (3) Other methods can be looked up from the Java docs!
+        (3) Other methods can be looked up from the Javadocs!
 */
 
-        /* Gregorian Calendar Class - This class is used to create an instance of Gregorian Calendar. We can change the year, month & date using set method. */
+        /* Gregorian Calendar Class - This class is used to create an instance of Gregorian Calendar. We can change the year, month and date using set method. */
 
         GregorianCalendar gc = new GregorianCalendar();
         System.out.println(gc.get(GregorianCalendar.YEAR));

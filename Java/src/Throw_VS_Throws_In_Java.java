@@ -15,8 +15,8 @@ public class Throw_VS_Throws_In_Java {
             System.out.println(e);
         }
 /*
-        The Throws Exception -> The java throws keyword is used to declare an exception. This gives information to the programmer that there might be an exception, so it's better to be prepared with a try catch block!
-        public void Calculate (int a, int b) throws IOException {
+        The Throws Keyword -> The java throws keyword is used to declare an exception. This gives information to the programmer that there might be an exception, so it's better to be prepared with a try catch block!
+        Public void Calculate (int a, int b) throws IOException {
             // code
         }
 */
